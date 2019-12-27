@@ -33,7 +33,7 @@ export default class ListMeds extends Component {
       <TouchableOpacity style={{marginRight: 9}} onPress={() => {
         Alert.alert(
           'Sobre o APP',
-          'Dados pertencem a Karen Lima\nemail@karen.com.\n\nDesenvolvedora: Anny Walker\nannyufrr@gmail.com', // <- this part is optional, you can pass an empty string
+          'Dados pertencem a Karen Lima\nkarenmylla@hotmail.com.\n\nDesenvolvedora: Anny Walker\nannyufrr@gmail.com', // <- this part is optional, you can pass an empty string
           [
             {text: 'OK', onPress: () => console.log('OK Pressed')},
           ],
